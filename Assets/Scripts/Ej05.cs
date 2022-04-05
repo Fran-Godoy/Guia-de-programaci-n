@@ -11,9 +11,15 @@ public class Ej05 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        int res;
         if (num2 == 0)
         {
             Debug.Log("No se puede dividir por cero");
+        }
+        else
+        {
+            res = num1/num2;
+            Debug.Log (num1 + "/" + num2 + "=" + res);
         }
     }
 
